@@ -6,7 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../stylesheets/slider.css";
 
-export default function Slider({ images }) {
+export default function Slider({ images, link }) {
   const [currentImg, setCurrentImg] = useState(1);
   const imageContainerRef = useRef(null);
 
@@ -34,6 +34,11 @@ export default function Slider({ images }) {
     }, 3000);
     return () => clearTimeout(timeout);
   }, [currentImg, updateImage]);
+
+  const openlink = (link) => {
+    window.open(link, "_blank");
+  };
+
   return (
     <div className="slider-container">
       <div className="image-container" ref={imageContainerRef}>
@@ -57,7 +62,11 @@ export default function Slider({ images }) {
         className="btn next"
       />
       <br />
-      <button type="button" className="sliderbutton">
+      <button
+        type="button"
+        className="sliderbutton"
+        onClick={() => openlink(link)}
+      >
         Link
       </button>
     </div>

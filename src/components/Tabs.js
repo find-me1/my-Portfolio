@@ -8,6 +8,18 @@ export default function Tabs() {
   const handleTabClick = (id) => {
     setActiveTab(id);
   };
+  const link1 = ["https://aphasiatherapysession.netlify.app/"];
+  const link2 = ["https://agroconnect1-zeta.vercel.app/"];
+  const link3 = ["https://purevanillajs1.netlify.app/"];
+  const link4 = [
+    "https://find-me1.github.io/60-HTML-CSS-JS-projects-HTML5-CSS3-and-vanilla-JavaScript/Weather%20App/index.html",
+  ];
+  const link5 = [
+    "https://find-me1.github.io/60-HTML-CSS-JS-projects-HTML5-CSS3-and-vanilla-JavaScript/English%20Dictionary/index.html",
+  ];
+  const link6 = [
+    "https://find-me1.github.io/60-HTML-CSS-JS-projects-HTML5-CSS3-and-vanilla-JavaScript/Image%20Search%20App/index.html",
+  ];
   const images1 = [
     `${process.env.PUBLIC_URL}/aphasia.jpg`,
     `${process.env.PUBLIC_URL}/aphasia2.png`,
@@ -259,12 +271,12 @@ export default function Tabs() {
               id="step3"
             >
               <span className="sliderspan1">
-                <Slider images={images1} />
-                <Slider images={images2} />
-                <Slider images={images3} />
-                <Slider images={images4} />
-                <Slider images={images5} />
-                <Slider images={images6} />
+                <Slider images={images1} link={link1} />
+                <Slider images={images2} link={link2} />
+                <Slider images={images3} link={link3} />
+                <Slider images={images4} link={link4} />
+                <Slider images={images5} link={link5} />
+                <Slider images={images6} link={link6} />
               </span>
             </div>
             <div
