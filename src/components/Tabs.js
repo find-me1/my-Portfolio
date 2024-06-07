@@ -133,17 +133,15 @@ export default function Tabs() {
                   <h1>e-Therapy Platform for Aphasia Patients - React.js</h1>
                   <p className="contentp1">
                     • Developed an innovative e-Therapy platform with React.js
-                    for &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;intuitive interfaces,
-                    aiding Aphasia patients in language &nbsp; &nbsp; &nbsp;
-                    &nbsp;&nbsp; &nbsp;&nbsp;rehabilitation.
+                    for intuitive interfaces, aiding Aphasia patients in
+                    language rehabilitation.
                     <br />• Listening and speaking exercises, each with their
-                    own datasets,&nbsp; &nbsp; &nbsp;&nbsp;are used in therapy
-                    to offer users various questions. <br />
+                    own datasets, are used in therapy to offer users various
+                    questions. <br />
                     • Create day-wise tasks and develop an interactive website
-                    that &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;speaks a question
-                    every 60 seconds if the patient is inactive. <br />•
-                    Implemented speech recognition for interactive therapy
-                    sessions.
+                    that speaks a question every 60 seconds if the patient is
+                    inactive. <br />• Implemented speech recognition for
+                    interactive therapy sessions.
                   </p>
                 </span>
               </span>
@@ -157,17 +155,15 @@ export default function Tabs() {
                   <h1>Agro Connect - PostgreSql , React.js , Node.js</h1>
                   <p className="contentp1">
                     • Developed a digital marketplace named Agro Connect,
-                    leveraging&nbsp; &nbsp;&nbsp;PostgreSQL for the database
-                    backend.
+                    leveraging PostgreSQL for the database backend.
                     <br />
                     • Utilized React.js for a user-friendly interface for buyers
-                    and &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;farmers.
+                    and farmers.
                     <br />
                     • Integrated Node.js to facilitate equipment sharing among
-                    farmers &nbsp;&nbsp;and Products for customers to buy.
+                    farmers and Products for customers to buy.
                     <br />• Implemented robust querying and nodemon for
-                    efficient &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
-                    &nbsp;&nbsp;&nbsp; &nbsp; development.
+                    efficient development.
                   </p>
                 </span>
               </span>
@@ -184,7 +180,7 @@ export default function Tabs() {
                     • Created an Elfster Clone.
                     <br />
                     • Technologies used: HTML, CSS, JavaScript (No CSS framework
-                    or &nbsp; &nbsp; JavaScript library).
+                    or JavaScript library).
                     <br />
                     • Developed to enhance skills in web development.
                     <br />
@@ -208,7 +204,7 @@ export default function Tabs() {
                     • Created a Weather App.
                     <br />
                     • Technologies used: HTML, CSS, JavaScript (No CSS framework
-                    or &nbsp; &nbsp; JavaScript library).
+                    or JavaScript library).
                     <br />
                     • Developed to enhance skills in web development.
                     <br />
@@ -231,7 +227,7 @@ export default function Tabs() {
                     • Created an Image Search App.
                     <br />
                     • Technologies used: HTML, CSS, JavaScript (No CSS framework
-                    or &nbsp; &nbsp; JavaScript library).
+                    or JavaScript library).
                     <br />
                     • Developed to enhance skills in web development.
                     <br />
@@ -254,7 +250,7 @@ export default function Tabs() {
                     • Created an English Dictionary.
                     <br />
                     • Technologies used: HTML, CSS, JavaScript (No CSS framework
-                    or &nbsp; &nbsp; JavaScript library).
+                    or JavaScript library).
                     <br />
                     • Developed to enhance skills in web development.
                     <br />

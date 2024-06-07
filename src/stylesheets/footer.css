@@ -22,3 +22,13 @@
   transform: translate(1150px, 900%);
   margin: 0;
 }
+@media only screen and (max-width: 600px) {
+  .footer {
+    transform: translate(-10%, 180px);
+    width: 55%;
+  }
+  .foospan1 {
+    width: 50%;
+    transform: translate(210px, 164px);
+  }
+}

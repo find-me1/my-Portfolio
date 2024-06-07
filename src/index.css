@@ -18,6 +18,7 @@ body {
   background-color: black;
   min-height: 100vh;
   padding: 3.2rem;
+  overflow-x: hidden;
   padding-bottom: 6rem;
 }
 
@@ -100,4 +101,37 @@ code {
 }
 .span1:hover {
   background-color: #0077b5;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0rem;
+  }
+  .navbar1 {
+    width: 80%;
+    height: 40px;
+    position: fixed !important;
+  }
+  .ph1 {
+    font-size: 16px;
+    transform: translate(30px, 30px);
+  }
+  .navbar1 ul li a {
+    font-size: 4px;
+  }
+  .fai {
+    font-size: 10px !important;
+  }
+  .a1 {
+    gap: 0.5rem;
+  }
+
+  .ball {
+    transform: translate(-660px, -5px);
+  }
+  .span1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transform: translate(30px, 30px);
+  }
 }

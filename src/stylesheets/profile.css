@@ -41,5 +41,31 @@
   display: inline-flex;
   margin: 2px;
   color: white;
-  padding: 2px 5px;
+  padding: 2px 5px !important;
+  font-size: 7px;
+  width: 44px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    position: absolute;
+  }
+  .profileimage {
+    width: 120px;
+    height: 100px;
+    transform: translate(0%, 70%);
+  }
+  .ph2 {
+    font-size: 10px;
+    transform: translate(120%, 100%);
+  }
+  .skills h3 {
+    transform: translate(30px, 20px);
+    font-size: 14px;
+  }
+  .skill {
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  }
+  .skills .skill span {
+    transform: translate(30px, 20px);
+  }
 }
